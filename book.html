@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>احجز جولتك | Discover Jeddah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>احجز جولتك في جدة</h1>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="attractions.html">المعالم</a>
+        <a href="restaurants.html">المطاعم</a>
+        <a href="events.html">الفعاليات</a>
+        <a href="contact.html">تواصل معنا</a>
+    </nav>
+</header>
+
+<section class="booking-section">
+    <h2>نموذج الحجز</h2>
+    <form class="booking-form">
+
+        <label>الاسم الكامل:</label>
+        <input type="text" placeholder="ادخل اسمك الكامل" required>
+
+        <label>البريد الإلكتروني:</label>
+        <input type="email" placeholder="example@email.com" required>
+
+        <label>رقم الجوال:</label>
+        <input type="tel" placeholder="05xxxxxxxx" required>
+
+        <label>اختر نوع الجولة:</label>
+        <select required>
+            <option value="">-- اختر الجولة --</option>
+            <option>جولة تاريخية</option>
+            <option>جولة بحرية</option>
+            <option>جولة مطاعم</option>
+            <option>جولة فعاليات</option>
+        </select>
+
+        <label>تاريخ الجولة:</label>
+        <input type="date" required>
+
+        <label>عدد الأشخاص:</label>
+        <input type="number" min="1" max="20" required>
+
+        <button type="submit">تأكيد الحجز</button>
+
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Discover Jeddah | جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
